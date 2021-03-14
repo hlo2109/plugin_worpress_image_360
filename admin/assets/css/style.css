@@ -1,0 +1,21 @@
+.container_des_image_360{
+  max-width:1000px;
+  margin:auto;
+}
+.container_des_image_360 table img{ width:76px; height: inherit; border:3px solid #fff; }
+.cargando_des_image_360{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content:center;
+  justify-items: center;
+  align-items: center;
+  background-color:rgba(0, 0, 0, .5);
+  z-index: 100000;
+  font-size: 40px;
+  color: #fff;
+  display: none;
+}
